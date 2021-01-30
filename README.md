@@ -40,5 +40,5 @@ NameVirtualHost *:80
     SSLCertificateFile "crt/{{YOUR-DOMAIN-NAME}}/server.crt"
     SSLCertificateKeyFile "crt/{{YOUR-DOMAIN-NAME}}/server.key"
   &lt;/VirtualHost></code></pre></p>
-<h3>5.	Restrat Apache in Xampp & Browser<h3>
+<h3>5.	Restrat Apache in Xampp & Browser</h3>
   <p>Open XAMPP Control Panel and Stop and Start Apache Module.</p>
