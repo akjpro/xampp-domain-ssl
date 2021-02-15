@@ -8,7 +8,7 @@ Add custom domain to XAMPP projects in Localhost and make those are SSL Certifie
 </p>
 <h3>2. 	SSL Certificate creation</h3><p>
   Create folder <code>C:\xampp\apache\cert</code> and Download following files in this folder<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<code> i) https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/cert.conf</code><a href="https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/cert.conf">Download</a></br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<code> i) https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/cert.conf</code><a href="https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/cert.conf">Download</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<code>ii) https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/make-cert.bat</code><a href="https://raw.githubusercontent.com/akjpro/xampp-domain-ssl/main/src/make-cert.bat">Download</a><br>
 Replace <code>{{YOUR DOMAIN NAME}}</code> with your domain name in <code>cert.conf</code> file (Lines : 25 & 51)<br>
 Run <code>make-cert.bat</code> by double clicking on it. And when prompt, enter your domain name.</p>
